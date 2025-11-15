@@ -1,6 +1,6 @@
 pragma solidity >=0.6.6;
 
-import '@cheeseswap/cheeseswap-core/contracts/interfaces/ICheeseSwapPair.sol';
+import '@cheeseswapv2/core/contracts/interfaces/ICheeseSwapPair.sol';
 import './SafeMath.sol';
 
 library CheeseSwapLibrary {

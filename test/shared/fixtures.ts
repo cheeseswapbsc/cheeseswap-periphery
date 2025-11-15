@@ -4,8 +4,8 @@ import { deployContract } from 'ethereum-waffle'
 
 import { expandTo18Decimals } from './utilities'
 
-import CheeseSwapFactory from '@cheeseswap/cheeseswap-core/build/CheeseSwapFactory.json'
-import ICheeseSwapPair from '@cheeseswap/cheeseswap-core/build/ICheeseSwapPair.json'
+import CheeseSwapFactory from '@cheeseswapv2/core/build/CheeseSwapFactory.json'
+import ICheeseSwapPair from '@cheeseswapv2/core/build/ICheeseSwapPair.json'
 
 import BEP20 from '../../build/BEP20.json'
 import WETH9 from '../../build/WETH9.json'

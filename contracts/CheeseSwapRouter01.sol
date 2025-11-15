@@ -1,7 +1,7 @@
 pragma solidity =0.6.6;
 
-import '@cheeseswap/cheeseswap-core/contracts/interfaces/ICheeseSwapFactory.sol';
-import '@cheeseswap/v2-lib/contracts/libraries/TransferHelper.sol';
+import '@cheeseswapv2/core/contracts/interfaces/ICheeseSwapFactory.sol';
+import '@cheeseswapv2/lib/contracts/libraries/TransferHelper.sol';
 
 import './libraries/CheeseSwapLibrary.sol';
 import './interfaces/ICheeseSwapRouter01.sol';

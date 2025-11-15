@@ -1,8 +1,8 @@
 pragma solidity >=0.6.6;
 
-import '@cheeseswap/cheeseswap-core/contracts/interfaces/ICheeseSwapFactory.sol';
-import '@cheeseswap/cheeseswap-core/contracts/interfaces/ICheeseSwapPair.sol';
-import '@cheeseswap/v2-lib/contracts/libraries/FixedPoint.sol';
+import '@cheeseswapv2/core/contracts/interfaces/ICheeseSwapFactory.sol';
+import '@cheeseswapv2/core/contracts/interfaces/ICheeseSwapPair.sol';
+import '@cheeseswapv2/lib/contracts/libraries/FixedPoint.sol';
 
 import '../libraries/CheeseSwapOracleLibrary.sol';
 import '../libraries/CheeseSwapLibrary.sol';

@@ -3,7 +3,7 @@ import { solidity, MockProvider, createFixtureLoader, deployContract } from 'eth
 import { Contract } from 'ethers'
 import { BigNumber, bigNumberify } from 'ethers/utils'
 import { MaxUint256 } from 'ethers/constants'
-import ICheeseSwapPair from '@cheeseswap/cheeseswap-core/build/ICheeseSwapPair.json'
+import ICheeseSwapPair from '@cheeseswapv2/core/build/ICheeseSwapPair.json'
 
 import { v2Fixture } from './shared/fixtures'
 import { expandTo18Decimals, getApprovalDigest, MINIMUM_LIQUIDITY } from './shared/utilities'
@@ -69,5 +69,3 @@ describe('CheeseSwapRouter', () => {
   })
 
 })
-
-
